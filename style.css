@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.insidecontainer {
+    width: 600px;
+    height:210px;
+    border-radius: 15px;
+    border: 5px solid red;
+    box-shadow: 8px 8px purple;
+    color:maroon;
+    text-shadow: 2px 2px rgb(202, 164, 164);
+    background-color: whitesmoke
+   
+   }
+
+.insidecontainer h1{
+    text-decoration-color:maroon;
+    font-style: italic;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.8;
+
+}
+.greenbox{
+    border:5px solid green;
+    height:650px;
+ }
+ .box{
+     width: 200px;
+     height: 200px;
+     border: 5px solid red;
+     color:rgb(19, 12, 12);
+     text-align: center;
+     text-shadow: 2px 2px rgb(202, 164, 164);
+     font-size: large;
+     font-style: bold;
+     line-height: 1.8;
+     border-radius: 10px;
+     background-color: #FFFFFF;
+     position: relative;
+     box-shadow: 5px 5px purple;
+ }
+ .box1{
+    float: left;
+    padding-top: 5px;
+    margin-bottom: 60px;
+ }
+ .box2{
+ 
+    float:right;
+    
+    right: 50px;
+   align-content: center;
+
+
+ }
+ .box img{
+   padding-top: 40px;
+   width: 80%;
+   height: 60%;
+   
+   
+ }
+ 
+ 
+
+ .box3{
+    float: left;
+    clear: left;
+    text-align: start;
+    font-size: small;
+    line-height: 1.2;
+    padding-top: 10px ;
+ }
+ .box4{
+    float:right;
+    right: 50px;
+    text-align: center;
+    font-size: small;
+    line-height: 0.8;
+    padding-top: 10px ;
+
+ }
+ #inputspan{
+    line-height: 0%;
+ }
+ #inputspan input{
+   width: 60%;
+ }
+ #btnspan{
+   line-height: 0%;
+  
+ }
+ .btn{
+   background-color: red;
+   border: 1px solid black;
+   border-radius: 20px;
+   width: 40%;
+ }
+ .container1{
+    display: flex;
+    justify-content: center;
+ }
+ .violetbox{
+    width: 600px;
+    height: 450px;
+    border: 5px solid purple;
+    background-color: green;  
+ }
+ .text{
+   text-align: center;
+   font-size: large;
+   font-style: bold;
+
+
+
+ }
+ .vbox1{
+    width: 49.5%;
+    height: 200px;
+    background-color: rgba(250, 250, 94, 0.774);
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    line-height: 2;
+ }
+ .vbox2{
+    width: 49.5%;
+    height: 200px;
+    background-color: rgba(250, 250, 94, 0.774);
+    border: 1px solid black;
+    float: right;
+    text-align: center;
+    line-height: 2;
+ }
+ .vbox3{
+    width: 590px;
+    height: 200px;
+    margin-top:10px;
+    background-color: rgba(250, 250, 94, 0.774);
+    border: 1px solid black;
+    clear: both;
+    text-align: center;
+    line-height: 2;
+ }
+ .offerbox{
+    width: 450px;
+    height: 80px;
+    border: 5px solid red;
+    border-radius: 20px;
+    position: fixed;
+    left: 30%;
+    top: 495px;
+    bottom:1000px;  
+    background-color: rgb(61, 243, 61);
+    box-shadow: 3px 3px purple;
+
+ }
+ .offerbox1{
+   float:left;
+   color: maroon;
+   padding-top: 5px;
+   padding-left: 8px;
+}
+.offerbox2{
+   float:right;
+   color:maroon;
+   padding-top:9px ;
+   padding-right: 4px;
+}
